@@ -14,7 +14,7 @@ window.onload = function () {
 theAddButton.onclick = function () {
 
     // If input empty
-    if (theInput.value === '') {
+    if (theInput.value.trim() === '') {
         alert("No Tasks To Add");
     }
     else {
